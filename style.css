@@ -177,7 +177,7 @@ nav {
 }
 
 .header__container h1 span {
-    color: var(--primary-color);
+    color: var(--white);
 }
 
 .booking__container {
@@ -230,6 +230,18 @@ nav {
     color: var(--text-light);
 }
 
+.about__container {
+    overflow: hidden;
+    display: grid;
+    gap: 32px;
+}
+
+.about__image img {
+    max-width: 450px;
+    margin: auto;
+    border-radius: 5px;
+}
+
 @media (width > 768px) {
 
     nav {
@@ -276,5 +288,10 @@ nav {
 
     .nav__links a:hover::after {
         width: 100%;
+    }
+
+    .about__container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
     }
 }
