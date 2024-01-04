@@ -156,6 +156,10 @@ nav {
   display: none;
 }
 
+.header__container {
+    padding-block: 160px 240px;
+}
+
 @media (width > 768px) {
 
     nav {
