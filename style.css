@@ -160,6 +160,76 @@ nav {
     padding-block: 160px 240px;
 }
 
+.header__container p {
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: var(--white);
+    text-align: center;
+    opacity: 0.9;
+}
+
+.header__container h1 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 72px;
+    color: var(--white);
+    text-align: center;
+}
+
+.header__container h1 span {
+    color: var(--primary-color);
+}
+
+.booking__container {
+    padding-block: 0;
+}
+
+.booking__form {
+    padding: 32px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    border-radius: 10px;
+    transform: translateY(-50%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input__group {
+    flex: 1 1 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.input__group span {
+    font-size: 28px;
+    color: var(--primary-color);
+}
+
+.input__group label {
+    font-weight: 500;
+    color: var(--text-dark)
+}
+
+.input__group input {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    padding-block: 5px;
+    color: var(--text-dark);
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.input__group input::placeholder {
+    color: var(--text-light);
+}
+
 @media (width > 768px) {
 
     nav {
