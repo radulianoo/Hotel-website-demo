@@ -1,139 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-</head>
-<body>
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <nav>
-          <div class="nav__bar">
-            <div class="logo">
-              <a href="#"><img src="assets/logo.png" alt="logo" /></a>
-            </div>
-            <div class="nav__menu__btn" id="menu-btn">
-              <i class="ri-menu-line"></i>
-            </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" /></a>
           </div>
-          <ul class="nav__links" id="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#service">Services</a></li>
-            <li><a href="#explore">Explore</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <button class="btn nav__btn">Book Now</button>
-        </nav>
-        <div class="section__container header__container" id="home">
-            <p>Simple - Unique - Friendly</p>
-            <h1>Make Yourself At Home <br/>In Our <span>Hotel</span>.</h1>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
         </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn nav__btn">Book Now</button>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <p>Simple - Unique - Friendly</p>
+        <h1>Make Yourself At Home <br />In Our <span>Hotel</span>.</h1>
+      </div>
     </header>
 
     <section class="section__container booking__container">
-        <form action="/" class="booking__form">
-            <div class="input__group">
-                <span><i class="ri-calendar-2-fill"></i></span>
-                <div>
-                    <label for="check-in">Check In</label>
-                    <input type="text" placeholder="Check in date">
-                </div>
-            </div>
-            <div class="input__group">
-                <span><i class="ri-calendar-2-fill"></i></span>
-                <div>
-                    <label for="check-out">Check Out</label>
-                    <input type="text" placeholder="Check out date">
-                </div>
-            </div>
-            <div class="input__group">
-                <span><i class="ri-user-fill"></i></span>
-                <div>
-                    <label for="guest">Guest</label>
-                    <input type="text" placeholder="Guest">
-                </div>
-            </div>
-            <div class="input__group input__btn">
-                <button class="btn">Check IN</button>
-            </div>
-        </form>
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">Check In</label>
+            <input type="text" placeholder="Check in date" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">Check Out</label>
+            <input type="text" placeholder="Check out date" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">Guest</label>
+            <input type="text" placeholder="Guest" />
+          </div>
+        </div>
+        <div class="input__group input__btn">
+          <button class="btn">Check IN</button>
+        </div>
+      </form>
     </section>
     <section class="section__container about__container" id="about">
-        <div class="about__image">
-            <img src="./assets/about.jpg" alt="about">
+      <div class="about__image">
+        <img src="./assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">About Us</p>
+        <h2 class="section__header">The best Holiday starts here!</h2>
+        <p class="section__description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
+          architecto minus, reiciendis quod mollitia eos expedita voluptate ut
+          minima assumenda odio quia at, incidunt dicta. Qui facere voluptate
+          veniam necessitatibus voluptatum? Dignissimos eligendi aperiam
+          laudantium.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Read More</button>
         </div>
-        <div class="about__content">
-            <p class="section__subheader">About Us</p>
-            <h2 class="section__header">The best Holiday starts here!</h2>
-            <p class="section__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi architecto minus, reiciendis quod mollitia eos expedita voluptate ut minima assumenda odio quia at, incidunt dicta. Qui facere voluptate veniam necessitatibus voluptatum? Dignissimos eligendi aperiam laudantium.</p>
-            <div class="about__btn">
-                <button class="btn">Read More</button>
-            </div>
-        </div>
+      </div>
     </section>
 
     <section class="section__container room__container">
-       <p class="section__subheader">Our living room</p>
-       <h2 class="section__header">The most memorable Rest Time starts here.</h2>
-       <div class="room__grid">
+      <p class="section__subheader">Our living room</p>
+      <h2 class="section__header">The most memorable Rest Time starts here.</h2>
+      <div class="room__grid">
         <div class="room__card">
-            <div class="room__card__image">
-                <img src="./assets/room-1.jpg" alt="room1">
-                <div class="room__card__icons">
-                    <span><i class="ri-heart-fill"></i></span>
-                    <span><i class="ri-paint-fill"></i></span>
-                    <span><i class="ri-shield-star-line"></i></span>
-                </div>
+          <div class="room__card__image">
+            <img src="./assets/room-1.jpg" alt="room1" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
             </div>
-            <div class="room__card__details">
-                <h4>Deluxe Ocean View</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, accusamus!</p>
-                <h5>Starting from <span>$1000/night</span></h5>
-                <button class="btn">Book Now</button>
-            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Deluxe Ocean View</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam,
+              accusamus!
+            </p>
+            <h5>Starting from <span>$1000/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
         </div>
         <div class="room__card">
-            <div class="room__card__image">
-                <img src="./assets/room-2.jpg" alt="room1">
-                <div class="room__card__icons">
-                    <span><i class="ri-heart-fill"></i></span>
-                    <span><i class="ri-paint-fill"></i></span>
-                    <span><i class="ri-shield-star-line"></i></span>
-                </div>
+          <div class="room__card__image">
+            <img src="./assets/room-2.jpg" alt="room1" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
             </div>
-            <div class="room__card__details">
-                <h4>Executive Cityscape Room</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, accusamus!</p>
-                <h5>Starting from <span>$500/night</span></h5>
-                <button class="btn">Book Now</button>
-            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Executive Cityscape Room</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam,
+              accusamus!
+            </p>
+            <h5>Starting from <span>$500/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
         </div>
         <div class="room__card">
-            <div class="room__card__image">
-                <img src="./assets/room-3.jpg" alt="room1">
-                <div class="room__card__icons">
-                    <span><i class="ri-heart-fill"></i></span>
-                    <span><i class="ri-paint-fill"></i></span>
-                    <span><i class="ri-shield-star-line"></i></span>
-                </div>
+          <div class="room__card__image">
+            <img src="./assets/room-3.jpg" alt="room1" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
             </div>
-            <div class="room__card__details">
-                <h4>Family Garden Retreat</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, accusamus!</p>
-                <h5>Starting from <span>$250/night</span></h5>
-                <button class="btn">Book Now</button>
-            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Family Garden Retreat</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam,
+              accusamus!
+            </p>
+            <h5>Starting from <span>$250/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
         </div>
-       </div>
+      </div>
     </section>
-    
     <script src="https://unpkg.com/scrollreveal"></script>
     <script type="module" src="./index.js"></script>
-</body>
+  </body>
 </html>
